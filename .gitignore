@@ -1,0 +1,16 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# Generated app data (enrolled faces, trained model, db, snapshots)
+face_access/data/faces/*
+face_access/data/model/*
+face_access/data/snapshots/*
+face_access/data/access.db
+!face_access/data/faces/.gitkeep
+!face_access/data/model/.gitkeep
+!face_access/data/snapshots/.gitkeep
+
+# OS junk
+Thumbs.db
+.DS_Store
